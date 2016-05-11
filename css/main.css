@@ -1,40 +1,70 @@
 body{
-	color: gray;
 	font-family: 'Montserrat';
+	background-image: url('../img/fondo.jpg');
 }
 header{
-	background-color: #E0E0E0;
+	background-color: #E74D59;
 	padding: 0.6% 0 0.1%;
-    border-top: 1px solid silver;
+    border-top: 1px solid #E74D59;
     margin-bottom: 1%;
+    color: white;
+    text-shadow: 2px 2px 2px black;
 }
 header p{
 	font-size:1.3em; 
 }
 #inputBox {
     width: 98%;
-    height: 100px;
+    height: 30px;
     margin: 1%;
+    border-color: rgba(0,0,0,0.5); 
     border-radius: 3px;
+    background: #DECFD0;
+    color: black;
 }
 #tweets {
 	margin-top: 40px;
 }
 .contenedor {
 	box-sizing: content-box;
-	background: #E0E0E0;
-	padding: 10px;
-	width: 98%;
-	border: 1px solid #ccc;
+	background: #3E2427;
+	padding: 1%;
+	width: 96%;
+	border: 1px solid #3E2427;
+	border-radius: 5px;
 	margin: 1%;
-	color: gray;
+	color: white;
 }
 .btn-primary{
 	margin-left: 1%;
+	background-color: #3E2427;
+	border:1px solid #3E2427;
+	color: white;
+	padding:5px;
+	border-radius: 5px;
+}
+.btn-primary:hover{
+	margin-left: 1%;
+	background-color: #583338;
+	border:1px solid #3E2427;
+	color: white;
+	padding:5px;
+	border-radius: 5px;
 }
 .parrafo{
 	margin: 0 3px;
 }
 .fa-trash-o{
 	float: right;
+	color: black;
+	border-radius: 5px;
+    border: 2px solid #E74D59;
+    background: #E74D59;
+}
+.fa-trash-o:hover{
+	float: right;
+	color: black;
+	border-radius: 5px;
+    border: 2px solid #DC2D3A;
+    background: #DC2D3A;
 }
