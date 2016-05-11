@@ -1,0 +1,40 @@
+body{
+	color: gray;
+	font-family: 'Montserrat';
+}
+header{
+	background-color: #E0E0E0;
+	padding: 0.6% 0 0.1%;
+    border-top: 1px solid silver;
+    margin-bottom: 1%;
+}
+header p{
+	font-size:1.3em; 
+}
+#inputBox {
+    width: 98%;
+    height: 100px;
+    margin: 1%;
+    border-radius: 3px;
+}
+#tweets {
+	margin-top: 40px;
+}
+.contenedor {
+	box-sizing: content-box;
+	background: #E0E0E0;
+	padding: 10px;
+	width: 98%;
+	border: 1px solid #ccc;
+	margin: 1%;
+	color: gray;
+}
+.btn-primary{
+	margin-left: 1%;
+}
+.parrafo{
+	margin: 0 3px;
+}
+.fa-trash-o{
+	float: right;
+}
